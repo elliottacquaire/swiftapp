@@ -21,6 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
+//         let contentView = LoginView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
@@ -28,6 +29,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
             window.makeKeyAndVisible()
+//            window.backgroundColor = UIColor(hexString: "#1B2024")
+//            window.backgroundColor = UIColor.rgbaColorFromHex(rgb: 0x1B2024, alpha: 1)
+            
         }
     }
 

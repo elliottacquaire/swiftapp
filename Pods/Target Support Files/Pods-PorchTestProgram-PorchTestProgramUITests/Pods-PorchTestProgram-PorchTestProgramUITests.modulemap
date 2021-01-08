@@ -1,0 +1,6 @@
+framework module Pods_PorchTestProgram_PorchTestProgramUITests {
+  umbrella header "Pods-PorchTestProgram-PorchTestProgramUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

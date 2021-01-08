@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.9.1)
+  - HandyJSON (5.0.2)
+  - MBProgressHUD (1.2.0)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - Result (4.1.0)
+  - RxSwift (4.5.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - HandyJSON
+  - MBProgressHUD
+  - Moya/RxSwift
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - MBProgressHUD
+    - Moya
+    - Result
+    - RxSwift
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 46a196ef74c04434c1e984966c6b542c9a96cd40
+
+COCOAPODS: 1.10.0
